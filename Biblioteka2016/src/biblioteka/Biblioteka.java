@@ -6,8 +6,10 @@ import biblioteka.interfejs.BibliotekaInterfejs;
 
 public class Biblioteka implements BibliotekaInterfejs {
 	
+	//Lista knjiga u biblioteci
 	private LinkedList<Knjiga> knjige = new LinkedList<Knjiga>();
 
+	//Ne sme biti duplikata
 	@Override
 	public void dodajKnjigu(Knjiga knjiga) {
 		
